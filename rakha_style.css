@@ -1,0 +1,42 @@
+
+h1 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #64748b;
+}
+
+.pb-14 {
+    padding: 0 0 104px;
+}
+
+@media (min-width: 992px) {
+    .border-end-lg {
+        border-right: 1px solid #e3e7eb !important;
+    }
+    .border-top-lg {
+        border-top: 1px solid #e3e7eb !important;
+    }
+    .container-fluid {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .border-top-md {
+        border-top: 1px solid #e3e7eb !important;
+    }
+    .border-end-md {
+    border-right: 1px solid #e3e7eb !important;
+    }
+    .container-fluid {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+}
