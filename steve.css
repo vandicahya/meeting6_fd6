@@ -1,0 +1,78 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.pb-14 {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem !important;
+}
+
+/* .py-5 {
+  margin: auto;
+ } */
+
+h1 {
+  font-size: 24px !important;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: rgb(100, 116, 139);
+}
+
+i {
+  font-size: 2.5rem !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+/*-------- MEDIA QUERY-----------  */
+@media screen and (min-width: 768px) {
+  .instructor {
+    border: 1px solid #e2e8f0;
+    border-left: none;
+  }
+
+  .people {
+    border: 1px solid #e2e8f0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .language {
+    border: 1px solid #e2e8f0;
+    border-left: none;
+    border-top: none;
+  }
+
+  .video {
+    border-bottom: 1px solid #e2e8f0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .language,
+  .video {
+    border: 1px solid #e2e8f0;
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .instructor,
+  .people,
+  .language,
+  .video {
+    border-bottom: 1px solid #e2e8f0;
+  }
+}
