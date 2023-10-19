@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .row div {
+    text-align: center;
+  }
+  
+  .row .colom{
+      padding: 43px 43px;
+  }
+  
+  .row .colom:nth-child(1) {
+    border-top: 1px solid rgb(219, 226, 230);
+    border-right: 1px solid rgb(219, 226, 230);
+    border-bottom: 1px solid rgb(219, 226, 230);
+  }
+  
+  .row .colom:nth-child(2) {
+    border-top: 1px solid rgb(219, 226, 230);
+    border-bottom: 1px solid rgb(219, 226, 230);
+  }
+  
+  .row .colom:nth-child(3) {
+    border-top: 1px solid rgb(219, 226, 230);
+    border-left: 1px solid rgb(219, 226, 230);
+    border-bottom: 1px solid rgb(219, 226, 230);
+  }
+  
+  .row .colom:nth-child(4) {
+    border-top: 1px solid rgb(219, 226, 230);
+    border-left: 1px solid rgb(219, 226, 230);
+    border-bottom: 1px solid rgb(219, 226, 230);
+  }
+  
+  .row .colom .icon{
+     margin-bottom: 20px;
+     font-weight: 400;
+     width: 40px; /* Ubah ukuran lebar ikon */
+     height: 40px; /* Ubah ukuran tinggi ikon */
+  }
+  
+  .row .colom h1{
+      font-size: 24px;
+      font-weight:600;
+  }
+  
+  .row .colom p{
+      font-size: 14px;
+      font-weight: 400;
+      color: #64748b;
+      line-height: 14px;
+  }
+  
+  .row .colom:nth-child(1) .icon{
+      color: #0ea5e9;
+  }
+  
+  .row .colom:nth-child(2) .icon{
+      color:#f59e0b
+      ;
+  }
+  
+  .row .colom:nth-child(3) .icon{
+      color: #754ffe;
+  }
+  
+  .row .colom:nth-child(4) .icon{
+      color: #38a169;
+  }
+  
+  @media (max-width: 990px) and (min-width:768px) {
+    
+      .row .colom:nth-child(3) {
+          border-top: 0 solid rgb(219, 226, 230);
+          border-left:0 solid rgb(219, 226, 230);
+          border-bottom: 1px solid rgb(219, 226, 230);
+        }
+        .row .colom:nth-child(4) {
+          border-top: 0 solid rgb(219, 226, 230);
+          border-left: 1px solid rgb(219, 226, 230);
+          border-bottom: 1px solid rgb(219, 226, 230);
+        }
+  }
+  
+  @media(max-width:767.99px){
+      .row .colom:nth-child(1) {
+          border-top: 0 solid rgb(219, 226, 230);
+          border-right: 0 solid rgb(219, 226, 230);
+          border-bottom: 1px solid rgb(219, 226, 230);
+        }
+        
+        .row .colom:nth-child(2) {
+          border-top: 0 solid rgb(219, 226, 230);
+          border-bottom: 1px solid rgb(219, 226, 230);
+        }
+        
+        .row .colom:nth-child(3) {
+          border-top: 0 solid rgb(219, 226, 230);
+          border-left: 0 solid rgb(219, 226, 230);
+          border-bottom: 1px solid rgb(219, 226, 230);
+        }
+        
+        .row .colom:nth-child(4) {
+          border-top: 0 solid rgb(219, 226, 230);
+          border-left: 0 solid rgb(219, 226, 230);
+          border-bottom: 1px solid rgb(219, 226, 230);
+        }      
+  }
+  
