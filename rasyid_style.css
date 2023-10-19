@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    gap: 20px;
+   
+}
+
+.left-container{
+background-color: red;
+color: white;
+flex: 6;
+
+}
+
+.right-container{
+background-color: blue;
+color: white;
+flex: 6;
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .container{
+        flex-direction: column;
+       }
+}
+
+
+@media screen and (max-width: 700px) {
+    .container{
+        flex-direction: column;
+       }
+}
