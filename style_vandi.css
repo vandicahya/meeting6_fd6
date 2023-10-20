@@ -1,0 +1,10 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .border-end-md {
+    border-right: 1px solid #e3e7eb;
+  }
+}
